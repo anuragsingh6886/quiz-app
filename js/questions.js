@@ -24,7 +24,7 @@ let questions = [
   },
     {
     numb: 3,
-    question: "When an operator’s value is NULL, the typeof returned by the unary operator is:_",
+    question: "When an operator's value is NULL, the typeof returned by the unary operator is:_",
     answer: "Object",
     options: [
       "Boolean",
@@ -90,17 +90,6 @@ let questions = [
    },
     {
      numb: 9,
-     question: "Which of the following is the correct syntax for referring the external style sheet?",
-     answer: "<link rel="stylesheet" type="text/css" href="example.css">",
-     options: [
-       "<style src = example.css>",
-       "<style src = "example.css" >",
-       "<stylesheet> example.css </stylesheet>",
-       "<link rel="stylesheet" type="text/css" href="example.css">"
-     ]
-   },
-    {
-     numb: 10,
      question: "CSS stands for -",
      answer: "Cascading style sheets",
      options: [
