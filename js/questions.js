@@ -2,71 +2,112 @@
 let questions = [
     {
     numb: 1,
-    question: "What does HTML stand for?",
-    answer: "Hyper Text Markup Language",
+    question: "Javascript is an _______ language?",
+    answer: "Object Oriented",
     options: [
-      "Hyper Text Preprocessor",
-      "Hyper Text Markup Language",
-      "Hyper Text Multiple Language",
-      "Hyper Tool Multi Language"
+      "Object Oriented",
+      "Object Based",
+      "Procedural",
+      "None of the above"
     ]
   },
     {
     numb: 2,
-    question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
+    question: "Which of the following keywords is used to define a variable in Javascript?",
+    answer: "Both let and var",
     options: [
-      "Common Style Sheet",
-      "Colorful Style Sheet",
-      "Computer Style Sheet",
-      "Cascading Style Sheet"
+      "let",
+      "var",
+      "Both let and var",
+      "None of the above"
     ]
   },
     {
     numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
+    question: "When an operator’s value is NULL, the typeof returned by the unary operator is:_",
+    answer: "Object",
     options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
+      "Boolean",
+      "Undefined",
+      "Object",
+      "Integer"
     ]
   },
     {
     numb: 4,
-    question: "What does SQL stand for?",
-    answer: "Structured Query Language",
+    question: "Which of the following are the advantages of React.js?",
+    answer: "All of the above",
     options: [
-      "Stylish Question Language",
-      "Stylesheet Query Language",
-      "Statement Question Language",
-      "Structured Query Language"
+      "React.js can increase the application's performance with Virtual DOM.",
+      "React.js is easy to integrate with other frameworks such as Angular, BackboneJS since it is only a view library.",
+      "React.js can render both on client and server side.",
+      "All of the above"
     ]
   },
     {
     numb: 5,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
+    question: " Which of the following is not a disadvantage of React.js?",
+    answer: "The JSX in React.js makes code easy to read and write.",
     options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
+      "React.js has only a view layer. We have put your code for Ajax requests, events and so on.",
+      "The library of React.js is pretty large.",
+      "The JSX in React.js makes code easy to read and write.",
+      "The learning curve can be steep in React.js."
     ]
   },
-  // you can uncomment the below codes and make duplicate as more as you want to add question
-  // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
-
-  //   {
-  //   numb: 6,
-  //   question: "Your Question is Here",
-  //   answer: "Correct answer of the question is here",
-  //   options: [
-  //     "Option 1",
-  //     "option 2",
-  //     "option 3",
-  //     "option 4"
-  //   ]
-  // },
+     {
+     numb: 6,
+     question: "What is the default port where webpack-server runs?",
+     answer: "8080",
+     options: [
+       "3000",
+       "8080",
+       "3030",
+       "6060"
+     ]
+   },
+    {
+     numb: 7,
+     question: "How many numbers of elements a valid react component can return?",
+     answer: "1",
+     options: [
+       "1",
+       "2",
+       "3",
+       "4"
+     ]
+   },
+    {
+     numb: 8,
+     question: "How many ways of defining your variables in ES6?",
+     answer: "3",
+     options: [
+       "1",
+       "3",
+       "5",
+       "4"
+     ]
+   },
+    {
+     numb: 9,
+     question: "Which of the following is the correct syntax for referring the external style sheet?",
+     answer: "<link rel="stylesheet" type="text/css" href="example.css">",
+     options: [
+       "<style src = example.css>",
+       "<style src = "example.css" >",
+       "<stylesheet> example.css </stylesheet>",
+       "<link rel="stylesheet" type="text/css" href="example.css">"
+     ]
+   },
+    {
+     numb: 10,
+     question: "CSS stands for -",
+     answer: "Cascading style sheets",
+     options: [
+       "Cascade style sheets",
+       "Color and style sheets",
+       "Cascading style sheets",
+       "Color show sheet"
+     ]
+   },
 ];
